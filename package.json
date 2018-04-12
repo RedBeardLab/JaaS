@@ -1,0 +1,23 @@
+{
+  "name": "jaas",
+  "version": "1.0.0",
+  "description": "JSON as a Service using RediSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "lambda-tester": "^3.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "generic-pool": "^3.4.0",
+    "redis": "^2.8.0"
+  }
+}
